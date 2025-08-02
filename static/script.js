@@ -5,12 +5,12 @@ document.addEventListener("keydown", (event) => {
      
     const x = lastMouseX;
     const y = lastMouseY;
-    overlay.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 100px, rgba(0, 0, 0, 0.95) 150px)`;
+    overlay.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 150px, rgba(0, 0, 0, 0.97) 200px)`;
 
     document.addEventListener('mousemove', (e) => {
       const x = e.clientX;
       const y = e.clientY;
-      overlay.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 100px, rgba(0, 0, 0, 0.95) 150px)`;
+      overlay.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 150px, rgba(0, 0, 0, 0.97) 200px)`;
     });
   }
 });
